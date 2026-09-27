@@ -1,0 +1,9 @@
+# Copy this file to run.properties (git-ignored) and adjust the values.
+# `~` and `$HOME` are expanded. Target directories are created on `link`.
+
+# Directory receiving skill symlinks (one symlinked directory per skill)
+skills.target=~/.claude/skills
+# Directory receiving instruction symlinks (one symlinked file per instruction)
+instructions.target=~/.claude/rules
+# Claude Code user directory, used by `purge`
+claude.home=~/.claude
